@@ -1,7 +1,7 @@
 cabal-version: 3.0
 
 name: ascii-case
-version: 1.0.1.1
+version: 1.0.1.2
 synopsis: ASCII letter case
 category: Data, Text
 
@@ -18,7 +18,7 @@ maintainer: Chris Martin, Julie Moronuki
 homepage: https://github.com/typeclasses/ascii-case
 bug-reports: https://github.com/typeclasses/ascii-case/issues
 
-extra-doc-files: *.md
+extra-source-files: *.md
 
 source-repository head
     type: git
