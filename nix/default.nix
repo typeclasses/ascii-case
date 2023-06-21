@@ -25,9 +25,6 @@ let
         })).ascii-case;
     in
     rec {
-      ghc-9-0 = makeTestConfiguration {
-        ghcVersion = "ghc90";
-      };
       ghc-9-2 = makeTestConfiguration {
         ghcVersion = "ghc92";
       };
@@ -42,7 +39,7 @@ let
       };
       all = pkgs.symlinkJoin {
         name = "ascii-case-tests";
-        paths = [ ghc-9-0 ghc-9-2 ghc-9-4 ghc-9-6 ];
+        paths = [ ghc-9-2 ghc-9-4 ghc-9-6 ];
       };
     };
 

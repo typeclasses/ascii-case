@@ -1,3 +1,7 @@
+### 1.0.1.3 (2023-06-21)
+
+Dropped support for GHC 9.0 (base 4.15)
+
 ### 1.0.1.2 (2023-01-01)
 
 Minor Cabal correction (change `extra-doc-files` to `extra-source-files`)
