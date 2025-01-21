@@ -1,3 +1,7 @@
+### 1.0.1.4 (2025-01-20)
+
+Version bumps
+
 ### 1.0.1.3 (2023-06-21)
 
 Dropped support for GHC 9.0 (base 4.15)
